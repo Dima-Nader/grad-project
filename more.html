@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="swiper.min.css">
+
+
+
+
+    <style>
+body{
+background-image: url(img/p1.jpg);
+background-size: cover;
+color: #000;
+ margin: 0;
+  padding: 0;
+
+
+
+}
+.code ul {
+
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+    list-style-type: none;
+      float: right;
+      margin-top: 25px;
+      
+      
+}
+.code ul li{
+
+
+    display: inline-block;}
+
+   .code ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+    
+    
+    
+        }
+       .code ul li a:hover{
+        background-color: #fff;
+        color: black;
+    
+    
+    
+        }
+      .code .active ul li.active a{
+            background-color: #fff;
+            color: black;
+    
+        }
+.logo img{
+
+width: 150px;
+height: 120px;
+margin-top: 0px;
+margin-left: 0px;
+font-style: italic;
+}
+.section{
+  width: 100%;
+  height: 600px;
+  color: red;
+  font-style: italic;
+}
+.section  h1 em{
+  font-size: 55px;
+  animation-name: glow;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+  
+}
+.sec2  h1 em{  
+  font-style: italic;
+  font-size: 55px;
+  animation-name: glow;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+  
+}
+.dima{
+margin-top: 260px;
+}
+.dima h1 {
+  color: red;
+
+}
+.dima p{
+color: gold;
+}
+.dima a {
+ font-size: larger;
+}
+@import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
+ 
+  
+.neons {
+   margin-top: 10rem;
+   text-align: center;
+}
+
+.neons h1 em {
+  font-size: 9rem;
+  font-style: italic;
+  font-family: Codystar;
+  letter-spacing: 8px;
+  text-align: center;
+   font-weight: bold;
+   animation-delay: 2s;
+   animation-duration: 5s;
+  animation-iteration-count: infinite;
+   animation-name: glow;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+  
+  
+
+}
+.neons h2{
+  color: white;
+  animation-iteration-count: infinite;
+  animation-duration: 3S;
+  animation-delay: 2s;
+}
+
+@keyframes glow {
+     from {
+      color: #fff;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
+  
+  to {
+     color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
+.swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 400px;
+      height: 450px;
+
+    }
+   .info h5{
+     margin: 0;
+     margin-top: 15px;
+     position: absolute;
+     bottom: 0;
+     text-align: center;
+     width: 100%;
+     height: 60px;
+     background: rgba(77, 69, 69, 0.842);
+     font-size: 20px;
+     font-weight: bold;
+   }
+   .info span {
+     font-size: 15px;
+     color: red;
+     font-weight: bold;
+   }
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="code">
+        <ul class="nav justify-content-end">
+            <li>
+              <a class="active " href="home.html" >HOME</a>
+            </li>
+            <li>
+              <a href="gallary.html">GALLARY</a>
+            </li>
+            <li>
+              <a href="staff.html">STAFF</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT US</a>
+            </li>
+            <li>
+                <a href="video.html">VIDEOS</a>
+              </li>
+              <li>
+                <a href="#">MORE INFO</a>
+              </li> 
+          </ul>
+        </div>
+       <div class="logo">
+        <img src="img/p3.jpg" alt="">
+       </div> 
+<SECtion class="section  text-center" data-vide-bg="v2">
+  <h1><em><span class="text"></span></em> </h1>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="dima">
+        <h1>dance one </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque officia ipsa sequi, voluptates dolor dolores facere hic vitae enim quia, incidunt itaque nisi? Fugiat ipsum dolor quidem possimus quibusdam officia!</p>
+        <a href=""><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <div class="dima">
+        <h1>dance two </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque officia ipsa sequi, voluptates dolor dolores facere hic vitae enim quia, incidunt itaque nisi? Fugiat ipsum dolor quidem possimus quibusdam officia!</p>
+        <a href=""><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-twitter-square"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+</SECtion>
+
+<section class="sec2 text-center">
+  <h1><em> slide show</em></h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            
+             
+            <div class="swiper-slide" style="background-image:url(./img/p8.jpg)">
+            <div class="info">
+              <h5>dima alosta <br> <span>web app</span></h5>
+
+            </div>
+            </div>
+
+            <div class="swiper-slide" style="background-image:url(./img/p9.jpg)">
+              <div class="info">
+                <h5>dima alosta <br> <span>web app</span></h5>
+  
+              </div>
+              </div>
+
+              <div class="swiper-slide" style="background-image:url(./img/p5.jpg)">
+                <div class="info">
+                  <h5>dima alosta <br> <span>web app</span></h5>
+    
+                </div>
+                </div>
+
+                <div class="swiper-slide" style="background-image:url(./img/p4.jpg)">
+                  <div class="info">
+                    <h5>dima alosta <br> <span>web app</span></h5>
+      
+                  </div>
+                  </div>
+
+                  <div class="swiper-slide" style="background-image:url(./img/p6.jpg)">
+                    <div class="info">
+                      <h5>dima alosta <br> <span>web app</span></h5>
+        
+                    </div>
+                    </div>
+
+                    <div class="swiper-slide" style="background-image:url(./img/p7.jpg)">
+                      <div class="info">
+                        <h5>dima alosta <br> <span>web app</span></h5>
+          
+                      </div>
+                      </div>
+
+                      <div class="swiper-slide" style="background-image:url(./img/p3.jpg)">
+                        <div class="info">
+                          <h5>dima alosta <br> <span>web app</span></h5>
+            
+                        </div>
+                        </div>
+
+                        <div class="swiper-slide" style="background-image:url(./img/m4.jpg)">
+                          <div class="info">
+                            <h5>dima alosta <br> <span>web app</span></h5>
+              
+                          </div>
+                          </div>
+
+                          <div class="swiper-slide" style="background-image:url(./img/m3.jpg)">
+                            <div class="info">
+                              <h5>dima alosta <br> <span>web app</span></h5>
+                
+                            </div>
+                            </div>
+
+                            <div class="swiper-slide" style="background-image:url(./img/m2.jpg)">
+                              <div class="info">
+                                <h5>dima alosta <br> <span>web app</span></h5>
+                  
+                              </div>
+                              </div>
+
+                              <div class="swiper-slide" style="background-image:url(./img/sky+photo+for+website+home+page.jpeg)">
+                                <div class="info">
+                                  <h5>dima alosta <br> <span>web app</span></h5>
+                    
+                                </div>
+                                </div>
+
+                                <div class="swiper-slide" style="background-image:url(./img/p2.jpg)">
+                                  <div class="info">
+                                    <h5>dima alosta <br> <span>web app</span></h5>
+                      
+                                  </div>
+                                  </div>
+           
+         
+        </div>
+        </div>
+          <div class="swiper-pagination"></div>
+    </div>
+    </div>
+    </div>
+</section>
+ 
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="more.js"></script>
+<script src="lab/wow.min.js"></script>
+<script src="lab/jquery.vide.min.js"></script>
+<script src="lab/typed.min.js"></script>
+<script src="lab/swiper.min.js"></script>
+<script>
+  var x = new Typed ( ".section .text ",{
+    strings:[" ","DANCE DANCE DANCE !","GO GO THE WHOLE FLOOR IS YOURS!","LOVE ME LOVE ME !","DO NOT LET ME GOOO!"],
+    typeSpeed:150,
+    backSpeed:50,
+    loop:true,
+    
+    });
+   
+   var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 4,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+   
+
+
+</script>
+</body>
+</html>

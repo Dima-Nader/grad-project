@@ -1,0 +1,117 @@
+body{
+background-image: url(img/p1.jpg);
+background-size: cover;
+
+
+
+
+}
+.code ul {
+
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+    list-style-type: none;
+      float: right;
+      margin-top: 25px;
+      
+      
+}
+.code ul li{
+
+
+    display: inline-block;}
+
+   .code ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+    
+    
+    
+        }
+       .code ul li a:hover{
+        background-color: #fff;
+        color: black;
+    
+    
+    
+        }
+      .code .active ul li.active a{
+            background-color: #fff;
+            color: black;
+    
+        }
+.logo img{
+
+width: 150px;
+height: 120px;
+margin-top: 0px;
+margin-left: 0px;
+
+
+
+}
+
+ 
+
+  @import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
+
+ 
+  
+  .neons {
+     margin-top: 10rem;
+     text-align: center;
+  }
+  
+  .neons h1 em {
+    font-size: 9rem;
+    font-style: italic;
+    font-family: Codystar;
+    letter-spacing: 8px;
+    text-align: center;
+     font-weight: bold;
+     animation-delay: 2s;
+     animation-duration: 5s;
+    animation-iteration-count: infinite;
+     animation-name: glow;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+    
+    
+
+  }
+  .neons h2{
+    color: white;
+    animation-iteration-count: infinite;
+    animation-duration: 3S;
+    animation-delay: 2s;
+  }
+  
+  @keyframes glow {
+       from {
+        color: #fff;
+      text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+    }
+    
+    to {
+       color: rgb(255, 255, 255);
+      text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+    }
+  }
+
+  
+
+
+
+
+
+
+
+  

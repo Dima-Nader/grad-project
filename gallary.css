@@ -1,0 +1,113 @@
+body{
+    background-image: url(img/p1.jpg);
+    background-size: cover;
+    
+    
+    
+    
+    }
+    .code ul {
+    
+        animation-name: glow;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        -webkit-animation: glow 2s ease-in-out infinite alternate;
+        -moz-animation: glow 2s ease-in-out infinite alternate;
+        animation: glow 2s ease-in-out infinite alternate;
+        list-style-type: none;
+          float: right;
+          margin-top: 25px;
+          
+          
+    }
+    .code ul li{
+    
+    
+        display: inline-block;}
+    
+       .code ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        
+        
+        
+            }
+           .code ul li a:hover{
+            background-color: #fff;
+            color: black;
+        
+        
+        
+            }
+          .code .active ul li.active a{
+                background-color: #fff;
+                color: black;
+        
+            }
+    .logo img{
+    
+    width: 150px;
+    height: 120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+    }    
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 25%;
+      max-width: 33.3%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+      filter: grayscale(1) brightness(0.5);
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s linear;
+    }
+    .column img:hover {
+      filter: grayscale(0);
+      
+      
+    }
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    @keyframes glow {
+      from {
+       color: #fff;
+     text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+   }
+   
+   to {
+      color: rgb(255, 255, 255);
+     text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+   }
+ }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+      .column img {
+        filter: grayscale(0) brightness(1);
+      }
+    }
+    

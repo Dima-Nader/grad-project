@@ -1,0 +1,102 @@
+body{
+    background-image: url(img/p1.jpg);
+    background-size: cover;
+    
+    
+    
+    
+    }
+    .code ul {
+    
+        animation-name: glow;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        -webkit-animation: glow 2s ease-in-out infinite alternate;
+        -moz-animation: glow 2s ease-in-out infinite alternate;
+        animation: glow 2s ease-in-out infinite alternate;
+        list-style-type: none;
+          float: right;
+          margin-top: 25px;
+          
+          
+    }
+    .code ul li{
+    
+    
+        display: inline-block;}
+    
+       .code ul li a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.6s ease;
+        
+        
+        
+            }
+           .code ul li a:hover{
+            background-color: #fff;
+            color: black;
+        
+        
+        
+            }
+          .code .active ul li.active a{
+                background-color: #fff;
+                color: black;
+        
+            }
+    .logo img{
+    
+    width: 150px;
+    height: 120px;
+    margin-top: 0px;
+    margin-left: 0px;
+    
+    }    
+    .jumbotron{
+        background-color:rgb(185, 169, 73);
+        width: 100%;
+        border-radius: 15px;
+        font-style: italic;
+     
+       }
+    .section7 .jumbotron  video
+  {
+    width: 100%;
+    height: 200px;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+  }
+  .jumbotron:hover{
+    background-color: red;
+    text-shadow: 3px 3px white;
+    padding-top: 30px;
+    cursor: cell;
+  }
+  @keyframes glow {
+    from {
+     color: #fff;
+   text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+ }
+ 
+ to {
+    color: rgb(255, 255, 255);
+   text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+ }
+}
+.END {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate; 
+   }

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+
+
+
+
+    <style>
+body{
+background-image: url(img/p1.jpg);
+background-size: cover;
+color: #000;
+ margin: 0;
+  padding: 0;
+
+
+
+}
+.code ul {
+
+    animation-name: glow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+    list-style-type: none;
+      float: right;
+      margin-top: 25px;
+      
+      
+}
+.code ul li{
+
+
+    display: inline-block;}
+
+   .code ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+    
+    
+    
+        }
+       .code ul li a:hover{
+        background-color: #fff;
+        color: black;
+    
+    
+    
+        }
+      .code .active ul li.active a{
+            background-color: #fff;
+            color: black;
+    
+        }
+.logo img{
+
+width: 150px;
+height: 120px;
+margin-top: 0px;
+margin-left: 0px;
+font-style: italic;
+}
+.neons {
+   margin-top: 10rem;
+   text-align: center;
+}
+
+.neons h1 em {
+  font-size: 9rem;
+  font-style: italic;
+  font-family: Codystar;
+  letter-spacing: 8px;
+  text-align: center;
+   font-weight: bold;
+   animation-delay: 2s;
+   animation-duration: 5s;
+  animation-iteration-count: infinite;
+   animation-name: glow;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+  
+  
+
+}
+.neons h2{
+  color: white;
+  animation-iteration-count: infinite;
+  animation-duration: 3S;
+  animation-delay: 2s;
+}
+
+@keyframes glow {
+     from {
+      color: #fff;
+    text-shadow: 0 0 10px #00fff2, 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 90px #00fff2;
+  }
+  
+  to {
+     color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px #00fff2, 0 0 30px #00fff2, 0 0 40px #00fff2, 0 0 50px #00fff2, 0 0 60px #00fff2, 0 0 70px #00fff2, 0 0 80px #00fff2, 0 1 90px #00fff2;
+  }
+}
+</style>
+</head>
+<body>
+    <div class="code">
+        <ul class="nav justify-content-end">
+            <li>
+              <a class="active " href="home.html" >HOME</a>
+            </li>
+            <li>
+              <a href="gallary.html">GALLARY</a>
+            </li>
+            <li>
+              <a href="staff.html">STAFF</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT US</a>
+            </li>
+            <li>
+                <a href="video.html">VIDEOS</a>
+              </li>
+              <li>
+                <a href="#">MORE INFO</a>
+              </li> 
+          </ul>
+        </div>
+       <div class="logo">
+        <img src="img/p3.jpg" alt="">
+       </div> 
+
+       <form>
+        <div>
+            <p>user name </p>
+            <input class="input1" type="text" placeholder="username"><br>
+            <p>ID</p>
+            <input class="id" type="text" placeholder="ID"><br>
+            <p>phone num</p>
+            <input class="input2" type="number" placeholder="yourphone"><br>
+            <p>birthday</p>
+            <input type="date">
+            
+
+        </div>
+
+
+
+       </form>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="lab/cleave.min.js"></script>
+<script>
+  //first input
+  var dima = new Cleave(".input1",{
+   prefix:"MR",
+   blocks:[3,4,5],
+   uppercase:true,
+   delimiter: '-',
+  });
+
+
+  // second input 
+ var dd = new Cleave("#id",{
+  prefix:"00962",
+  numeral: true,
+  numeralThousandsGroupStyle: 'thousand'
+  });
+
+
+
+ // 3 input
+  var cl = new Cleave(".input2",{
+    phone: true,
+    phoneRegionCode: '{country}'
+});  
+</script>
+</body>
+</html>
